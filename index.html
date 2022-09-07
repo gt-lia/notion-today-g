@@ -5,7 +5,7 @@
       #lbl {
         display: flex;
         font-family: sans-serif;
-        font-size: 18pt;
+        font-size: 12pt;
         color: #0F7B6C;
         padding: 0px;
         border: 1px solid #ffffff;
@@ -58,11 +58,11 @@
     var greet;
 
     if (hrs < 12)
-        greet = 'good morning, g |  ';
+        greet = 'good morning, g  ';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'good afternoon, g | ';
+        greet = 'good afternoon, g ';
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'good evening, g |  ';
+        greet = 'good evening, g  ';
 
     document.getElementById('lbl').innerHTML = `
         <div class="container">
